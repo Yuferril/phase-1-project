@@ -89,5 +89,4 @@ function clearBtn() {
     if (input.value !="") {
          input.value = "";
 }
-  
 }
