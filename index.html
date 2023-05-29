@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Phase 1 Project</title>
+  </head>
+  <body>
+    <script src="src/index.js" defer charset="utf-8"></script>
+
+    <div>
+      <h1>Pokedex</h1>
+      <p>Toggle light/dark mode</p>
+      <button onclick="darkMode()">Toggle dark mode</button>
+      <div id="search-input">
+        <label for="pokemonSearch">Search:</label>
+        <input type="text" id="pokeInput" name="pokeInput"  onclick="displayPopup(e)"/>
+        <button type="clear" id="clearBtn" onclick="clearBtn()">clear</button>
+      </div>
+    </div>
+
+    <div id="pokemon-list">
+      <ol id="pokedex"></ol>
+    </div>
+  </body>
+</html>
